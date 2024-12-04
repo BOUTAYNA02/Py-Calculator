@@ -26,7 +26,7 @@ while calcul:
                 elif operation == '/':
                     if float(second_number) == 0:
                         print("Dividing by 0 is not possible.")
-                        result = None
+                        result = 0
                     else:
                         result = float(first_number) / float(second_number)
                 elif operation == '**':
